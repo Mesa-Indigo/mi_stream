@@ -55,3 +55,13 @@ data_file 'DLC_ITYP_REQUEST' 'stream/**/**/bzzz_foodpack.ytyp'
 data_file 'DLC_ITYP_REQUEST' 'stream/bzzz_plant_coca_a.ytyp'
 data_file 'DLC_ITYP_REQUEST' 'stream/**/**/dingus.ytyp'
 data_file 'DLC_ITYP_REQUEST' 'stream/**/**/knjgh_pizzas.ytyp'
+
+-- weapons
+data_file 'WEAPONCOMPONENTSINFO_FILE' 'stream/**/**/weaponcomponents.meta'
+data_file 'WEAPON_METADATA_FILE' 'stream/**/**/weaponarchetypes.meta'
+data_file 'WEAPON_ANIMATIONS_FILE' 'stream/**/**/weaponanimations.meta'
+data_file 'PED_PERSONALITY_FILE' 'stream/**/**/pedpersonality.meta'
+data_file 'WEAPONINFO_FILE' 'stream/**/**/weapons.meta'
+
+-- names
+client_script 'cl_weaponNames.lua'
