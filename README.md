@@ -1,3 +1,4 @@
+![mi_script template](https://github.com/user-attachments/assets/b728dfda-5089-4310-a53a-71106501efdb)
 # Mi_Stream
 A small resource containing a collection of free assets for use in my scripts. These are resources that were found on the cfx.re forum for free or on the gtavmods / lspdfr website and were converted to work as a FiveM asset. I did not make nor do I own any of the resources in this resource. 
 
