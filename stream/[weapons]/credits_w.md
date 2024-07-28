@@ -1,5 +1,5 @@
 # Credits to creators of weapon skins in this resource:
 
 | Creator                        | Resource |
-| :---                                   |     :---      |
-| **Core**                       | Ox Items / Utilities / Streaming / Resources |
+| :---                           |     :---      |
+| **Sxprk**                      | [Vom Feuer Classic Combat Pistol](https://www.gta5-mods.com/weapons/vom-feuer-classic-combat-pistol-sp-fivem-animated-tints-lore-friendly) |

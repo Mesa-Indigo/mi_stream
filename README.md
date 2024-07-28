@@ -1,5 +1,5 @@
 ![mi_script template](https://github.com/user-attachments/assets/b728dfda-5089-4310-a53a-71106501efdb)
-# Mi_Stream
+# Mi_Stream - Lore Friendly Streamable Assets
 
 ![GitHub all releases](https://img.shields.io/github/downloads/Mesa-Indigo/mi_stream/total)
 ![GitHub](https://img.shields.io/github/license/Mesa-Indigo/mi_stream)
