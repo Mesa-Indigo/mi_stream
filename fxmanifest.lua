@@ -17,6 +17,7 @@ files {
     'stream/**/**/*.ytyp',
     'stream/**/**/*.ymf',
     'stream/**/**/*.ydr',
+    'stream/**/**/*.ycd',
 
     -- finding vehicle data files
     'stream/**/**/*.ytd',
