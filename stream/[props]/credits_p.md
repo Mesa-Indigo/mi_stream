@@ -11,3 +11,4 @@
 | **Gege_03**                    | [Dingus/Maxwell Prop](https://forum.cfx.re/t/free-dingus-prop/5017149) |
 | **knjgh**                      | [5 Pizza slices](https://forum.cfx.re/t/free-prop-5-pizza-slices/4952067) |
 | **DNX93**                      | [Housing Props](https://www.nexusmods.com/gta5/mods/677?tab=description) |
+| **Alcaline**                   | [Wallet Pack](https://forum.cfx.re/t/free-props-wallet-props-cards-and-key-car/5039912) |
