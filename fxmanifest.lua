@@ -1,25 +1,40 @@
---[[    fx data    ]]--
-fx_version 'cerulean'
+
+-- game / build information
 use_experimental_fxv2_oal 'yes'
-lua54 'yes'
-game 'gta5'
+fx_version 'cerulean' lua54 'yes' game 'gta5'
 
---[[    resource data    ]]--
-name 'mi_stream'
-author 'MI_Agimir'
-version '1.0.0'
-repository 'https://github.com/Mesa-Indigo/mi_stream'
-description 'streaming props / vehicles / shells / etc'
+-- resource information
+repository 'https://github.com/Mesa-Indigo/mi_core'
+description 'ox_core based script'
+author 'Agimir' name 'MI_CORE' version '0.0.1'
+license 'LGPL-3.0-or-later'
 
---[[    manifest data    ]]--
+-- client files
+client_scripts {
+    'source//*.lua'
+}
+
+-- resource files
 files {
-    -- finding props & shells
-    'stream/**/**/*.ytyp',
-    'stream/**/**/*.ymf',
-    'stream/**/**/*.ydr',
-    'stream/**/**/*.ycd',
+    -- locale files
+    'locale/*.json',
 
-    -- finding vehicle data files
+    -- prop files
+    'stream/props/**/*.ytyp',
+    'stream/props/**/*.ydr',
+    'stream/props/**/*.ycd',
+    'stream/props/**/*.ytd',
+    'stream/props/**/*.ymf',
+
+    -- weapon files
+    --'stream/weapons/**/*.ytyp',
+    --'stream/weapons/**/*.ydr',
+    --'stream/weapons/**/*.ycd',
+    --'stream/weapons/**/*.ytd',
+    --'stream/weapons/**/*.yft',
+    --'stream/weapons/**/*.meta',
+
+    -- vehicle files
     'stream/**/**/*.ytd',
     'stream/**/**/*.yft',
     'stream/**/**/vehicles.meta',
@@ -29,18 +44,14 @@ files {
     'stream/**/**/vehiclelayouts.meta',
     'stream/**/**/dlctext.meta',
     'stream/**/**/contentunlocks.meta',
+
 }
 
---[[    data files    ]]--
-
--- props
-data_file 'DLC_ITYP_REQUEST' 'stream/**/**/badges.ytyp'
-data_file 'DLC_ITYP_REQUEST' 'stream/**/**/bzzz_effect_cigarpack.ytyp'
-data_file 'DLC_ITYP_REQUEST' 'stream/**/**/bzzz_food_dessert_a.ytyp'
-data_file 'DLC_ITYP_REQUEST' 'stream/**/**/bzzz_food_icecream_pack.ytyp'
-data_file 'DLC_ITYP_REQUEST' 'stream/**/**/bzzz_food_xmas22.ytyp'
-data_file 'DLC_ITYP_REQUEST' 'stream/**/**/bzzz_foodpack.ytyp'
-data_file 'DLC_ITYP_REQUEST' 'stream/**/**/alca_wallet.ytyp'
-data_file 'DLC_ITYP_REQUEST' 'stream/**/**/dingus.ytyp'
-data_file 'DLC_ITYP_REQUEST' 'stream/**/**/knjgh_pizzas.ytyp'
-
+data_file 'HANDLING_FILE' 'stream/**/**/handling.meta'
+data_file 'VEHICLE_METADATA_FILE' 'stream/**/**/vehicles.meta'
+data_file 'VEHICLE_METADATA_FILE' 'stream/**/**/vehiclelayouts.meta'
+data_file 'CARCOLS_FILE' 'stream/**/**/carcols.meta'
+data_file 'VEHICLE_VARIATION_FILE' 'stream/**/**/carvariations.meta'
+data_file 'VEHICLE_LAYOUTS_FILE' 'stream/**/**/dlctext.meta'
+data_file 'VEHICLE_METADATA_FILE' 'stream/**/**/contentunlocks.meta'
+data_file 'AMBIENT_PED_MODEL_SET_FILE' 'stream/**/**/ambientpedmodelsets.meta'
