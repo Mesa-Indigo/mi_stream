@@ -25,27 +25,9 @@ files {
     'stream/**/*.ymf',
 
     'stream/**/*.ytd',
-    'stream/**/*.ytd',
     'stream/**/*.yft',
-    'stream/**/vehicles.meta',
-    'stream/**/carvariations.meta',
-    'stream/**/carcols.meta',
-    'stream/**/handling.meta',
-    'stream/**/vehiclelayouts.meta',
-    'stream/**/dlctext.meta',
-    'stream/**/contentunlocks.meta',
-
 
 }
-
-data_file 'HANDLING_FILE' 'stream/**/handling.meta'
-data_file 'VEHICLE_METADATA_FILE' 'stream/**/vehicles.meta'
-data_file 'VEHICLE_METADATA_FILE' 'stream/**/vehiclelayouts.meta'
-data_file 'CARCOLS_FILE' 'stream/**/carcols.meta'
-data_file 'VEHICLE_VARIATION_FILE' 'stream/**/carvariations.meta'
-data_file 'VEHICLE_LAYOUTS_FILE' 'stream/**/dlctext.meta'
-data_file 'VEHICLE_METADATA_FILE' 'stream/**/contentunlocks.meta'
-data_file 'AMBIENT_PED_MODEL_SET_FILE' 'stream/**/ambientpedmodelsets.meta'
 
 data_file 'DLC_ITYP_REQUEST' 'stream/**/badges.ytyp'
 data_file 'DLC_ITYP_REQUEST' 'stream/**/bzzz_effect_cigarpack.ytyp'
