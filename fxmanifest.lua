@@ -12,7 +12,7 @@ license 'LGPL-3.0-or-later'
 
 -- client files
 client_scripts {
-    'source/*.lua'
+    'source/main.lua'
 }
 
 -- resource files
