@@ -21,7 +21,6 @@ files {
     -- prop files
     'stream/**/*.ytyp',
     'stream/**/*.ydr',
-    'stream/**/*.ycd',
     'stream/**/*.ymf',
 
     'stream/**/*.ytd',
